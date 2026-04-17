@@ -137,3 +137,23 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+### ADDED CODE ###
+# --- Steady Harbor Security ---
+.env
+*.pem
+*.key
+config.php
+!config.php.example
+
+# --- Database & Logs ---
+*.sql
+*.log
+*.sqlite
+dump.rdb
+
+# --- System Garbage ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
